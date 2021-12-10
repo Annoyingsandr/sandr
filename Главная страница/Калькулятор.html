@@ -1,0 +1,33 @@
+<html>
+<head>
+        <title> Калькулятор </title>
+        <link rel="stylesheet" type="text/css" href='GL.css' />
+        <meta charset="utf-8">
+</head>
+<body>
+        <header class="page-header">
+                <a href="Главная страница.html">Мои проеты:</a>
+                <a href="Калькулятор.html">Калькулятор</a>
+                <a href="">...</a>
+                <a href="">...</a>
+                <a href="">...</a>
+        </header>
+        <br>
+        <P>КАЛЬКУЛЯТОР</P>
+        <p>=</p>
+        <input type="text" size="20" id="num1" />.
+        <br>
+        <div id="operator_btns">
+        <button id="sum" onclick="op='+'" class="operator">+</button>
+        <button id="dif" onclick="op='-'" class="operator">-</button>
+        <button id="mult" onclick="op='*'" class="operator">x</button>
+        <button id="div" onclick="op='/'" class="operator">/</button>
+        </div>
+        <input type="text" size="20" id="num2" />.
+        <br>
+        <button onclick="func()">=</button>
+        <p id="result"></p>
+        <p>=</p>
+    <script src ="calck.js"> </script>  
+</body>
+</html>
